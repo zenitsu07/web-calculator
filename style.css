@@ -1,51 +1,57 @@
 body{
-    background-color: #264653;
+    background-color: #457b9d;
+
 }
 .interface{
-    margin: 20vh 30vw;
-    width: 25vw;
-    height: 40vh;
+    /* margin when set to auto it sets the inside div element to center or middle of div dimensions */
+    margin: 20vh auto;
+    width: 23vw;
+    height: 45vh;
 }
 .output-area{
-    border: 2px solid black;
-    /* border-radius: 30px; */
     height: 30%;
-    background-color: #e5383b;
-    /* border-radius: 30px 30px  0 0; */
+    background-color: #52b69a   ;
+    /* background-color: #023047; */
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     justify-content: space-around;
     word-wrap: break-word;
     word-break: break-all;
-    padding: 10px;
+    padding: 1.48vh 0.65vw;
 }
+
 .output-area .previous-operand{
-    
+
     font-size: 2.5vh;
     color: rgba(256, 256, 256, 0.7);
     opacity: .75;
+
 }
+
 .output-area .current-operand{
+
     font-size: 3.5vh;
     padding-bottom: 0;
     color: rgba(256, 256, 256);
+
 }
 .input-area{
-    border: 2px solid black;
-    /* border-radius: 30px; */
+    border: 3px solid #bc6c25;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
     height: auto;
-    /* border-radius: 0 0 30px   30px; */
 }
 #keys{
-    width: 6vw;
+
+    width: 25%;
     height: 5vh;
     background-color: #4a4e69;
-    padding-top: 8px;
+    background-color: #fb8500;
+    padding-top: 1.22px;
+    /* shadow for emerging effect to keys */
         box-shadow:
         0 2.8px 10px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -57,8 +63,8 @@ body{
 }
 
 .key-1{
-    width: 12vw !important;
-    /* border-radius: 15px !important; */
-    background-color: #264653 !important;
+    width: 50% !important;
+    background-color: #43aa8b !important;
+    background-color: #e5383b !important;
 }
 
